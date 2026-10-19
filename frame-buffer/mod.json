@@ -1,0 +1,33 @@
+{
+	"geode": "4.0.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "drewtheboo's.frame-buffer",
+	"name": "Frame Buffer",
+	"version": "v1.0.0",
+	"developer": "drewtheboo7308",
+	"description": "Early clicks are held for a few frames and fired the moment a jump becomes possible.",
+	"settings": {
+		"enabled": {
+			"type": "bool",
+			"name": "Enable Frame Buffer",
+			"description": "Turn the input buffer on or off.",
+			"default": true
+		},
+		"buffer-frames": {
+			"type": "int",
+			"name": "Buffer Window (frames)",
+			"description": "How many physics frames before landing a click is remembered. Higher = more forgiving.",
+			"default": 3,
+			"min": 1,
+			"max": 15,
+			"control": {
+				"slider": true
+			}
+		}
+	}
+}
