@@ -6,7 +6,8 @@
 		"mac": "2.2074",
 		"ios": "2.2074"
 	},
-	"id": "drewtheboo's.frame-buffer",
+	"id": yourname.frame-buffer
+	,
 	"name": "Frame Buffer",
 	"version": "v1.0.0",
 	"developer": "drewtheboo7308",
